@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+}
+body {
+    color: #1D3B38;
+}
+h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 2px 2px #BBC4C3;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 0.2em;
+    line-height: 1.5;
+}
+p::first-letter {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.5em;
+}
+.right {
+    text-align: right;
+}
+.cat {
+    background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Cheshire-Cat-Backgrounds.jpg");
+}
+.mad {
+    background-image: url("http://img06.deviantart.net/2156/i/2011/136/3/3/chesire_cat_blue_wallpaper_by_schenker-d3gj8jl.jpg");
+}
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1);
+}
+.time {
+    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/10/time-wallpaper-9.jpg");
+    background-repeat: repeat-y;
+}
